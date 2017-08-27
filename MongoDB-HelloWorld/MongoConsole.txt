@@ -1,0 +1,16 @@
+/* Let use mongo console to check the created database “testdb”, collection “user”, and document */
+> show dbs
+admin   0.000GB
+local   0.000GB
+mycol   0.000GB
+test    0.000GB
+testdb  0.000GB
+> use testdbs
+switched to db testdbs
+> show collections
+> use testdb
+switched to db testdb
+> show collections
+user
+> db.user.find()
+{ "_id" : ObjectId("59a23d11d4c6d2c2a17f3646"), "name" : "Sushma-updated", "age" : 30, "createdDate" : ISODate("2017-08-27T03:31:29.593Z") }

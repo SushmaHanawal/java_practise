@@ -14,6 +14,7 @@ import com.mongodb.MongoException;
 
 /**
  * Java + MongoDB Hello world Example
+ * http://www.mkyong.com/mongodb/java-mongodb-hello-world-example/
  *
  */
 public class ConnectToDB {
